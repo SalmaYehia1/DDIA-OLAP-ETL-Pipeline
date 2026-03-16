@@ -32,8 +32,8 @@ We performed 8 runs to calculate the baseline average for the original relationa
 Initial migration to a Star Schema significantly reduced join depth, leading to faster aggregations.
 ![Star Schema Results](./images/screen12.jpg)
 
-### Advanced Optimization
-By further refining the join logic (removing the redundant nation join), we achieved the peak performance of **2.29s**.
+### Star Schema Optimization
+By refining the join logic (removing the redundant nation join), we achieved the peak performance of **2.29s**.
 ![Optimized Star Schema](./images/screen13.jpg)
 
 ---
